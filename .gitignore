@@ -1,0 +1,9 @@
+# Skydda känsliga engagement-artefakter från att pushas av misstag.
+# loot/ = bevis/PoC — håll lokalt, dela inte.
+loot/*
+!loot/.gitkeep
+
+# Vanligt skräp
+.DS_Store
+Thumbs.db
+*.log
