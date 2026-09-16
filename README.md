@@ -24,9 +24,15 @@ Be Claude Code använda en agent, t.ex.:
 - `agents/` — de två agentdefinitionerna (kopieras till `~/.claude/agents/`).
 - `engagements/` — tidsstämplade loggar per körning.
 - `recon/` — rå rekon-/skanningsdata.
-- `findings/` — red teams fynd (mall: `_TEMPLATE-finding.md`).
-- `defenses/` — blue teams detektioner + fixar (mall: `_TEMPLATE-defense.md`).
+- `findings/` — red teams fynd (mall: `_TEMPLATE-finding.md`, exempel: `EXAMPLE-F-0001-weak-csp.md`).
+- `defenses/` — blue teams detektioner + fixar (mall: `_TEMPLATE-defense.md`, exempel: `EXAMPLE-F-0001-weak-csp.md`).
 - `loot/` — bevis/PoC-artefakter (håll känsligt lokalt, dela inte).
+
+## Exempelrapporter
+`findings/EXAMPLE-F-0001-weak-csp.md` + `defenses/EXAMPLE-F-0001-weak-csp.md` visar en
+komplett red→blue-runda (svag CSP → nonce-baserad fix + detektion) med den pedagogiska
+nivån agenterna skriver i. **Syntetisk data** (`example.com`) — radera dem eller behåll
+som referens.
 
 ## Innan första körning
 1. Följ `INSTALL.md` för att installera agenterna och sätta din workspace-sökväg.
